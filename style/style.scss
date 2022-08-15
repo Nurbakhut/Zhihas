@@ -97,9 +97,19 @@ a {
 	&__title {
 	}
 	&__item {
+		position: relative;
 		width: 305px;
 		height: 304px;
 	}
 	&__img {
 	}
+	&__img-back {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+	}
+}
+.poshion {
+	position: relative;
 }

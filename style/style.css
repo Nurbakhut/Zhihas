@@ -74,6 +74,17 @@ a {
   justify-content: space-between;
 }
 .category__item {
+  position: relative;
   width: 305px;
   height: 304px;
+}
+.category__img-back {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.poshion {
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
