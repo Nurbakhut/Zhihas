@@ -77,6 +77,12 @@ a {
   position: relative;
   width: 305px;
   height: 304px;
+  border: 1px solid black;
+}
+.category__img {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
 }
 .category__img-back {
   position: absolute;
