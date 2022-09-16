@@ -16,5 +16,12 @@ let obj = {
 		console.log(obj.name);
 	},
 };
-
 obj.sayHello();
+let b = 5;
+b = "101";
+console.log(b);
+let obj1 = { user: "nur" };
+let obj2 = { user: "nur" };
+console.log(obj1 === obj2);
+let arr = ["ali", "star", "lol"];
+console.log(arr[1]);
